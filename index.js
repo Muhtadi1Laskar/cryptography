@@ -1,4 +1,4 @@
-const { LETTER_MAP, modulas, findKey, chunk } = require("./config");
+const { LETTER_MAP } = require("./config");
 const { encryptCaesar, decryptCaesar,  encryptAffine, encryptVigenre, decryptVigenre } = require("./old cryptography/junction-point.js");
 
 console.log(encryptCaesar("muhtadi", 2, LETTER_MAP));
